@@ -1,0 +1,40 @@
+{
+  "name": "crab-trap-cra",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-pro-light": "^5.0.13",
+    "@fortawesome/fontawesome-pro-regular": "^5.0.13",
+    "@fortawesome/fontawesome-pro-solid": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^1.2.0-14",
+    "@fortawesome/react-fontawesome": "^0.1.0",
+    "lodash": "^4.17.10",
+    "normalize.css": "^8.0.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4",
+    "react-transition-group": "^2.4.0",
+    "styled-components": "^3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && gh-pages -d /build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.2"
+  },
+  "homepage": "https://elegant-curie-a94ca0.netlify.com/crab-trap/build/",
+  "license": "Please ask for permission."
+}
